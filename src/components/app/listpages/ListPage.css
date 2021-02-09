@@ -2,4 +2,18 @@ body {
   background-color: rgb(223, 200, 182);
   text-align: center;
   align-items: center;
+} 
+
+h4 {
+  padding-bottom: 7%;
+
+}
+
+.link {
+  text-decoration: 'none';
+}
+
+ul {
+  text-decoration: 'none';
+  display: 'none';
 }

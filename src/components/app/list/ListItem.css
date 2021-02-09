@@ -1,22 +1,32 @@
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     text-decoration: 'none';
+    padding-bottom: 5%;
+    font-family: fantasy;
   }
 
   main {
+      margin-top: 0%;
       background-color: rgb(65, 47, 33);
-      color: rgb(0, 0, 0);
+      color: rgb(20, 11, 6);
       padding: 3rem;
-  }
+      text-decoration: 'none';
+      padding-bottom: 10px;
 
+  }
+  
   ul {
-      list-style: none;
+    text-decoration: 'none';
   }
 
  .image {
     margin: 0rem;
-    box-shadow: rgb(16, 187, 130) 10px 10px 30px 1px;
+    box-shadow: rgb(218, 173, 144) 0px 0px 30px 30px;
+  }
+
+  .link {
+    text-decoration: 'none';
   }
 
 

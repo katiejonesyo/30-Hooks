@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 export default function DetailPage() {
   const [character, setCharacter] = useState({});
   const { id } = useParams();
-  console.log(id, 'character id');
 
   useEffect(() => {
     getCharactersById(id).then((character) => setCharacter(character));
@@ -15,7 +14,9 @@ export default function DetailPage() {
   const { name, allies, enemies, photoUrl } = character;
 
   return (
+    <>
     <div>
+      <h4>To return to the List Page just click the link under the charcter photo on the detail page.</h4>
       <h1>{name}</h1>
       <img src={photoUrl} />
       <ul>
@@ -24,6 +25,7 @@ export default function DetailPage() {
       </ul>
       <Link to="/">List Page</Link>
     </div>
+    </>
   );
 }
 

@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import ListPage from '../components/app/listpages/ListPage';
+import ListPage from '../components/listpages/ListPage';
 import { getCharacters } from '../services/AvatarApi';
 
 export default function AvatarContainer() {
@@ -21,4 +21,5 @@ export default function AvatarContainer() {
     </main>
   );
 }
+
 

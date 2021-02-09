@@ -1,7 +1,8 @@
 import React from 'react';
-import { render, cleanup } from '@testing-library/react';
+import { render, cleanup, waitFor } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import ListPage from './ListPage';
+import ListPage from '../listpages/ListPage';
+
 
 const characters = [
   {
@@ -23,13 +24,15 @@ const characters = [
 
 describe('ListPage component', () => {
   afterEach(() => cleanup());
-  it('renders list of characters', () => {
+  it('renders list of characters', async() => {
     const { asFragment } = render(
       <MemoryRouter>
         <ListPage characters={characters} />
       </MemoryRouter>
     );
-    expect(asFragment()).toMatchSnapshot();
+    waitFor(() => {
+      expect(asFragment()).toMatchSnapshot();
+    })
   });
 });
 

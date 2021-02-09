@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { getCharactersById } from '../../../services/AvatarApi';
+import { getCharactersById } from '../../services/AvatarApi';
 import { Link } from 'react-router-dom';
 
 export default function DetailPage() {

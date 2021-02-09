@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AvatarContainer from '../../container/AvatarContainer';
-import DetailPage from '../../components/app/detail/DetailPage';
+import DetailPage from '../detail/DetailPage';
 import Header from '../header/Header'
 
 export default function App() {

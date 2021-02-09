@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailPage component renders a details of a single character 1`] = `
+<DocumentFragment>
+  <div>
+    <h4>
+      To return to the List Page just click the link under the charcter photo on the detail page.
+    </h4>
+    <h1 />
+    <img />
+    <ul>
+      <li>
+        Allies: 
+      </li>
+      <li>
+        Enemies: 
+      </li>
+    </ul>
+    <a
+      href="/"
+    >
+      List Page
+    </a>
+  </div>
+</DocumentFragment>
+`;

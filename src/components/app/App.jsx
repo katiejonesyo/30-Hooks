@@ -1,5 +1,19 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import AvatarContainer from '../../container/AvatarContainer';
+import DetailPage from '../detail/DetailPage';
+import Header from '../header/Header'
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+     <Router>
+       <Header/>
+          <Switch>
+             <Route exact path="/" component={() => <AvatarContainer />} />
+             <Route exact path="/detail/:id" component={DetailPage} />
+          </Switch>
+      </Router>
+  );
 }
+
+

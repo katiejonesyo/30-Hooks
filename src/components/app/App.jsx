@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import AvatarContainer from '../../container/AvatarContainer';
 
 export default function App() {
   return (

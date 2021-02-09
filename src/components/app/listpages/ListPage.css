@@ -1,4 +1,5 @@
-.link {
-    text-decoration: 'underline';
-    border: 'solid 10px blue';
-  }
+body {
+  background-color: rgb(223, 200, 182);
+  text-align: center;
+  align-items: center;
+}

@@ -1,6 +1,25 @@
-.image {
-    height: 20%;
-    width: 20%;
-    border-radius: 10px;
-    box-shadow: black 10px 10px 30px 1px;
+
+  h1 {
+    font-size: 1.5rem;
+    text-decoration: 'none';
   }
+
+  main {
+      background-color: rgb(65, 47, 33);
+      color: rgb(0, 0, 0);
+      padding: 3rem;
+  }
+
+  ul {
+      list-style: none;
+  }
+
+ .image {
+    margin: 0rem;
+    box-shadow: rgb(16, 187, 130) 10px 10px 30px 1px;
+  }
+
+
+  
+  
+

@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, waitFor } from '@testing-library/react';
-import AvatarContainer from './AvatarContainer';
+import AvatarContainer from '../container/AvatarContainer';
 import { MemoryRouter } from 'react-router-dom';
 
 describe('AllQuotes container', () => {

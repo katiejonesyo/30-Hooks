@@ -2,10 +2,11 @@ body {
   background-color: rgb(223, 200, 182);
   text-align: center;
   align-items: center;
+  margin-bottom: 10%;
 } 
 
 h4 {
-  padding-bottom: 7%;
+  padding-bottom: 5%;
 
 }
 
@@ -16,4 +17,9 @@ h4 {
 ul {
   text-decoration: 'none';
   display: 'none';
+}
+
+img {
+  box-shadow: rgb(56, 30, 13) 0px 0px 40px 50px;
+  margin-bottom: 10%;
 }
